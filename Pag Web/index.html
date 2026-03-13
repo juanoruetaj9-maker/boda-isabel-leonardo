@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Boda Isabel & Leonardo</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<!-- SOBRE -->
+
+<div id="intro">
+
+<div class="envelope">
+
+<div class="flap"></div>
+
+<div class="seal" onclick="romperSello()">
+
+<div class="seal-left"></div>
+<div class="seal-right"></div>
+
+<img src="image_01/logo_iniciales_IY_L.png">
+
+</div>
+
+</div>
+
+<p class="abrir-texto">
+Toca el sello para abrir la invitación
+</p>
+
+</div>
+
+
+
+<div id="particles-js"></div>
+
+
+
+<audio id="musicaFondo" loop>
+<source src="Audio/musica.mp3" type="audio/mpeg">
+</audio>
+
+
+
+<div id="contenido">
+
+
+
+<!-- PORTADA -->
+
+<section class="portada-logo">
+
+<div class="logo-portada">
+<img src="image_01/logo_iniciales_IY_L.png">
+</div>
+
+<h1>Isabel & Leonardo</h1>
+
+<p class="fecha">
+11 Abril 2026
+</p>
+
+<p class="lugar">
+Villahermosa, Tabasco
+</p>
+
+</section>
+
+
+
+<!-- CONTADOR -->
+
+<section class="contador">
+
+<h2>Faltan</h2>
+
+<div class="flip-clock">
+
+<div class="flip-item">
+<span id="dias">00</span>
+<p>Días</p>
+</div>
+
+<div class="flip-item">
+<span id="horas">00</span>
+<p>Horas</p>
+</div>
+
+<div class="flip-item">
+<span id="minutos">00</span>
+<p>Min</p>
+</div>
+
+<div class="flip-item">
+<span id="segundos">00</span>
+<p>Seg</p>
+</div>
+
+</div>
+
+
+<a href="#confirmacion">
+
+<button class="boton-principal">
+Confirmar asistencia
+</button>
+
+</a>
+
+</section>
+
+
+
+<!-- HISTORIA -->
+
+<section class="historia fade">
+
+<h2>Nuestra Historia</h2>
+
+</section>
+
+
+
+<section class="foto-texto fade">
+
+<img src="image_01/image_001.jpeg">
+
+<div class="texto-overlay">
+
+<h3>Cómo nos conocimos</h3>
+
+<p>
+Dos historias que decidieron escribirse juntas al escucharse por primera vez y reconocerse en el instante.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="foto-texto fade">
+
+<img src="image_01/image_002.jpeg">
+
+<div class="texto-overlay">
+
+<h3>La propuesta</h3>
+
+<p>
+Fue a las 00:01 horas del 01 de Enero del 2026, iniciando el año juntos como familia.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section class="foto-texto fade">
+
+<img src="image_01/image_003.jpeg">
+
+<div class="texto-overlay">
+
+<h3>Lo que nos une</h3>
+
+<p>
+La lealtad y la esencia de cada uno, complementa al otro.
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- EVENTO -->
+
+<section class="evento bloque-negro fade">
+
+<h2>El Evento</h2>
+
+<div class="bloque-evento">
+
+<i class="fa-solid fa-door-open icono"></i>
+
+<h3>Recepción previa</h3>
+
+<p>4:45 PM</p>
+
+</div>
+
+
+<div class="bloque-evento">
+
+<i class="fa-solid fa-ring icono"></i>
+
+<h3>Boda Civil</h3>
+
+<p>5:00 PM</p>
+
+<p>Jardin Del Restaurante – Hotel Fiesta Inn Cencalli</p>
+
+</div>
+
+
+<div class="bloque-evento">
+
+<i class="fa-solid fa-champagne-glasses icono"></i>
+
+<h3>Celebración</h3>
+
+<p>6:45 PM</p>
+
+<p>Salón Tucán</p>
+
+</div>
+
+
+<a href="https://maps.app.goo.gl/kPRvrocvAxCjvSKA8" target="_blank">
+
+<button class="boton-mapa">
+Cómo llegar
+</button>
+
+</a>
+
+</section>
+
+<!-- VESTIMENTA -->
+
+<section class="vestimenta fade">
+
+<i class="fa-solid fa-user-tie icono-seccion"></i>
+
+<h2>Código de Vestimenta</h2>
+
+<p class="vestimenta-texto">
+Etiqueta 
+</p>
+
+<p class="vestimenta-texto">
+Hombres: Traje Formal
+
+</p>
+
+<p class="vestimenta-texto">
+Mujeres: Vestido Largo-Noche
+
+</p>
+
+</section>
+
+<!-- DESAYUNO -->
+
+<section class="desayuno fade">
+
+<i class="fa-solid fa-mug-hot icono-seccion"></i>
+
+<h2>Desayuno con los novios</h2>
+
+<p>
+Domingo 12 de abril – 9:30 AM
+</p>
+
+<p>
+Restaurante Del Hotel Fiesta Inn Cencalli
+</p>
+
+</section>
+
+
+
+<!-- HOSPEDAJE -->
+
+<section class="hospedaje fade">
+
+<i class="fa-solid fa-hotel icono-seccion"></i>
+
+<h2>Hospedaje</h2>
+
+<p>
+Habrá hospedaje disponible para invitados.
+</p>
+
+<a href="Hotel/reservacion.html">
+
+<button class="boton-reserva">
+Ver información del hotel
+</button>
+
+</a>
+
+</section>
+
+
+
+<!-- MENSAJE -->
+
+<section class="regalo bloque-negro fade">
+
+<p>
+Su presencia es nuestro mejor regalo
+</p>
+
+</section>
+
+
+
+<!-- CONFIRMACION -->
+
+<section id="confirmacion" class="confirmacion fade">
+
+<h2>Confirmar asistencia</h2>
+
+<form id="rsvpForm">
+
+<input type="text" id="nombre" placeholder="Nombre completo" required>
+
+<input type="text" id="telefono" placeholder="Teléfono" required>
+
+<input type="number" id="asistentes" placeholder="Número de asistentes" required>
+
+<textarea id="mensaje" placeholder="Mensaje para los novios"></textarea>
+
+<button type="submit">
+Confirmar asistencia
+</button>
+
+</form>
+
+
+
+<a href="https://wa.me/529931202762?text=Hola,%20confirmo%20mi%20asistencia%20a%20la%20boda">
+
+<button class="boton-whatsapp">
+Confirmar por WhatsApp
+</button>
+
+</a>
+
+</section>
+
+
+
+<footer>
+
+<p>Isabel & Leonardo</p>
+<p>11 Abril 2026</p>
+
+</footer>
+
+
+
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
